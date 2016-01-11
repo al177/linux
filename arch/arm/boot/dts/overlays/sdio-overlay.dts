@@ -28,5 +28,6 @@
 
 	__overrides__ {
 		poll_once = <&sdio_mmc>,"non-removable?";
+		force_1_bit = <&sdio_mmc>,"sdhci,1-bit-only?";
 	};
 };

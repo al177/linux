@@ -613,6 +613,9 @@ Params: overclock_50             Clock (in MHz) to use when the MMC framework
         poll_once                Disable SDIO-device polling every second
                                  (default on: polling once at boot-time)
 
+        force_1_bit              Limit SD bus width to 1 bit regardless
+                                 of host or device capabilities
+
 
 Name:   smi
 Info:   Enables the Secondary Memory Interface peripheral. Uses GPIOs 2-25!
